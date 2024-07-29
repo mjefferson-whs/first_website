@@ -46,3 +46,31 @@ h1 {
   height: 300px;
   object-fit: cover;
 }
+
+li {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  background-color: bisque;
+  justify-content: center;
+  border: 1px solid green;
+}
+
+.nav-link {
+  border: 1px solid red;
+  color: tomato;
+  text-decoration: none;
+  padding: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #222;
+  background-color: yellow;
+  transition: 1.8s;
+}
