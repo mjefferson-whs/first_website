@@ -21,9 +21,13 @@ h2 {
   border: 10px solid rgb(244, 244, 135);
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./assets/table.jpg) center center no-repeat;
   background-size: cover;
+  /* enable flexbox rules */
   display: flex;
+  /* make content appear from top to bottom rather than left to right */
   flex-direction: column;
+  /* center in one direction */
   justify-content: center;
+  /* center in the other direction */
   align-items: center;
 }
 
@@ -85,4 +89,37 @@ li {
   color: #eee;
   background-color: tomato;
   transition: .5s;
+}
+
+/* CARD */
+.card {
+  width: 300px;
+  border-bottom: 4px solid red;
+  box-shadow: 2px 5px #ccc;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-text {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-title {
+  color: red;
+}
+
+.card-description {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.card-link {
+  color: red;
+  border: 1px solid red;
+  border-radius: 6px;
+  padding: 7px 15px;
+  text-decoration: none;
 }
